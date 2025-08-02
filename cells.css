@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: 'EarlyGameboy';
+    src: url('./fontes/Early/GameBoy.ttf') format('truetype');
+    font-family: 'Cinzel';
+    src: url('./fontes/Cinzel-VariableFont_wght.ttf') format('truetype');
+    font-family:'Monster Friend';
+    src: url('./fontes/MonsterFriendFore.otf') format('truetype');
+    font-family: 'Terminus';
+    src: url('./fontes/Terminus.ttf') format('truetype');
+    font-family:'Dumero';
+    src: url('./fontes/DUMERO(1).ttf') format('trutype');
+
+    font-weight: normal;
+    font-style:normal;
+}
+
+.base{
+    width: 1340px;
+    height: 60px;
+    display: flex;
+    font-family: 'Dumero';
+    font-size: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.base a{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(228, 12, 12);
+    justify-content: space-between;
+}
+
+body{
+    background-color: #000000;
+}
+
+div{
+    margin-bottom: 50px;
+}
+
+/* .vampi img{
+
+} */
+
+.vampi {
+    height: 450px;
+    display: grid;
+    justify-content: space-between;
+    border-radius:10px;
+    background-color: #1a1a1a;
+    background-image: url(./img/godibie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.vampi img{
+    height: 150px;
+}
+
+.vampi p{
+    font-family:'EarlyGameboy', monospace;
+    color:#ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.stim img{
+    height: 80px;
+}
+
+
+
+ul{
+    justify-content: space-between;
+}
+
+
+
+.Hollow{
+    display: grid;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(./img/Holua.png);
+    background-repeat: no-repeat;
+    width: 1340px;
+    justify-content: space-between;
+    height: 600px;
+
+}
+
+.Hollow p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cinzel';
+}
+
+.Hollow img{
+    width: 350px;
+    height: 340px;
+}
+
+
+.stimh img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.Coracao{
+    display:grid;
+    border-radius:10px;
+    background-size:cover;
+    background-image:url(./img/Undertale.jpg);
+    background-repeat: no-repeat;
+    width: 1340px;
+    height:600px;
+    justify-content: space-between;
+}
+
+.Coracao p{
+    font-family: 'Monster Friend';
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+
+
+
+.stimu img{
+    width: 80px;
+    height: 80px;
+}
+
+.steamu a{
+    justify-content: space-between;
+}
+
+.Machine{
+    display:grid;
+    background-image: url('./img/Ultrakill.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.Machine p{
+    font-family: 'Terminus';
+    font-size: 25px;
+}
+
+p .Humanidade{
+    font-family: 'Terminus';
+}
+
+.steam2 img{
+    width: 80px;
+    height: 80px;
+}
